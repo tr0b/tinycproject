@@ -10,5 +10,10 @@ main(){
 	while ((c=getchar())!=EOF) {
 
 		putchar(c);
+		/* Print 1 or 0 depending on c and EOF equality*/
+		putchar((c==EOF?'1':'0'));
+		/* Print value of EOF */
+		printf("Value of EOF is: %d", EOF);
 	}
+
 }
